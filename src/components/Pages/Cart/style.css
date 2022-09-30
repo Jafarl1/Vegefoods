@@ -1,0 +1,129 @@
+.img-table {
+  width: 200px;
+}
+
+.div-table {
+  display: flex;
+  width: 100px;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.div-table button {
+  cursor: pointer !important;
+  font-size: 15px !important;
+}
+
+p {
+  margin: 0;
+}
+
+.table-cart .MuiTableHead-root {
+  background-color: #82AE46;
+  padding: 20px 10px;
+}
+.table-cart .MuiTableHead-root .MuiTableCell-root {
+  color: #fff;
+  font-family: "Poppins";
+}
+.table-cart .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+  font-size: 15px;
+  color: #000;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.table-cart {
+  margin: 40px;
+}
+
+.form {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: left;
+  margin-left: 10px;
+}
+
+.content h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+}
+.content p {
+  margin-bottom: 1rem;
+  color: gray;
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 15px;
+}
+.content label {
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.8;
+  display: block;
+}
+.content input {
+  display: block;
+  width: 100%;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  color: #000;
+  font-size: 14px;
+  background-color: #fff;
+  padding-left: 1rem;
+}
+.content input:focus {
+  outline: none;
+}
+.content .span-margin {
+  margin-right: 200px;
+}
+
+.submit {
+  all: unset;
+  background-color: #82AE46;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.div-img {
+  width: 100%;
+  display: flex;
+  height: 420px;
+  background: url(../../../assets/images/slider/slider_1.jpg);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.div-img h1 {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-family: "Poppins";
+}
+
+.empty-card {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.empty-card .MuiSvgIcon-root {
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */

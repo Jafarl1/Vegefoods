@@ -1,0 +1,38 @@
+html {
+    overflow-x: hidden;
+}
+[id$="_category"] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#fruits_category {
+    background-image: url(../../../assets/images/categories/fruits.jpg);
+}
+#juices_category {
+    background-image: url(../../../assets/images/categories/juice.jpg);
+}
+#center_category {
+    background-image: url(../../../assets/images/categories/center.jpg);
+}
+#vegetables_category {
+    background-image: url(../../../assets/images/categories/vege.jpg);
+}
+#dried_category {
+    background-image: url(../../../assets/images/categories/dried.jpg);
+}
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: #82ae46 !important;
+}
+.swal2-confirm {
+    background-color: #82ae46 !important;
+}

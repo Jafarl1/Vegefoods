@@ -1,0 +1,19 @@
+#page_mainslider {
+  background-image: url(../../../assets/images/slider/slider_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#about_movie {
+  background-image: url(../../../assets/images/movie_img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#about_sectionCount {
+    background-image: url(../../../assets/images/deal.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}

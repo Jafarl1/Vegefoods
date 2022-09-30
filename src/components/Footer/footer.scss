@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+footer{
+position: relative;
+padding: 7em 0;
+font-family: "Poppins", Arial, sans-serif;
+
+
+.footer-top{
+    .scroll{
+
+
+        button.scrolltoUp{
+          width: 60px;
+          height: 60px;
+          border: none;
+          border-radius: 50%;
+          background-color: #82ae46;
+          position: absolute;
+          top: -30px;
+          left: calc(50% - 30px);
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          cursor: pointer;
+          z-index: 111 !important;
+
+          i{
+            color: #fff;
+            font-size: 19px;
+            transform: translateY(20px);
+            animation: scroll_top 1.6s ease infinite;
+          }
+        }
+        }
+        @keyframes scroll_top {
+            0% {
+              transform: translateY(20px);
+              opacity: 0;
+            }
+            40% {
+              opacity: 1;
+            }
+            100% {
+              transform: translateY(0px);
+            }
+          }
+
+h5{
+margin-bottom: 20px;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+p{
+margin-bottom: 1rem;
+font-size: 14px;
+color: #000000;
+line-height: 1.8;
+}
+
+.social-icons{
+@keyframes fadeInUp {
+from {
+opacity: 0;
+visibility: hidden;
+transform: translate3d(0, 40px, 0);
+}
+
+to {
+visibility: visible;
+opacity: 1;
+transform: none;
+}
+}
+a{
+text-decoration: none;
+margin-bottom: 30px !important;
+
+height: 50px;
+width: 50px;
+display: block;
+float: left;
+background: rgba(0, 0, 0, 0.02);
+border-radius: 50%;
+position: relative;
+color: #000000;
+margin: 0 10px 0 0;
+animation: fadeInUp  1s both;
+
+i{
+position: absolute;
+font-size: 26px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+}
+}
+
+ul{
+list-style: none;
+padding-left: 0;
+font-size: 14px;
+
+li{
+a{
+color: #000000;
+text-decoration: none;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+display: block;
+}
+
+.icon{
+width: 40px;
+display: table-cell;
+}
+span{
+display: table-cell;
+
+}
+}
+}
+}
+.footer-bottom{
+p{
+margin-bottom: 1rem;
+font-size: 14px;
+color: #000000;
+font-family: 'Poppins', sans-serif;
+
+a{
+text-decoration: none;
+color: #82ae46;
+}
+}
+}
+
+
+
+
+}

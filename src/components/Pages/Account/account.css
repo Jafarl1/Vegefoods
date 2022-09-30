@@ -1,0 +1,40 @@
+.register_error {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 12px !important;
+  color: rgb(230, 1, 1) !important;
+  cursor: pointer;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.2s;
+}
+.show_error {
+  opacity: 1 !important;
+  z-index: 111 !important;
+}
+.register_error i {
+  margin-right: 3px;
+}
+#submitFormButton:disabled {
+    background-color: #888888;
+}
+#register_rules_list {
+    width: 100%;
+    border-top: 0.2px solid #83ae46aa;
+    border-bottom: 0.2px solid #83ae46aa;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+    display: none;
+    transition: .3s;
+}
+#register_rules_list span {
+    font-size: 13px !important;
+    color: #555555;
+}
+.show_rules_list {
+    display: flex !important;
+}
